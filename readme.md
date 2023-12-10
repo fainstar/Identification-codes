@@ -5,13 +5,15 @@ ImageProcessing 類別提供了多種影像預處理技術，同時包含計算�
 ## 使用方法   
 您可以使用以下程式碼將 ImageProcessing 類別整合到您的應用程式中：
 
-python
-Copy code
-from ImageProcessing import ImageProcessing
+```python
+# Copy code from ImageProcessing import ImageProcessing
 
 # 指定輸入影像路徑
-input_image_path = "path/to/your/image.jpg"
+input_image_path="path/to/your/image.jpg"
 
 # 如果希望保留中間影像，將 separate 參數設置為 True
 ImageProcessing.main(input_image_path, separate=True)
-歡迎根據您的特定需求修改和擴展此腳本。
+
+
+貢獻
+歡迎提供建議和改進！請隨時發送問題或拉取請求。
