@@ -1,10 +1,9 @@
-ImageProcessing 影像處理工具
-簡介
-ImageProcessing 類別提供了多種影像預處理技術，同時包含計算均方誤差 (MSE) 的方法，可用於辨識驗證碼。此類別被包裝成 main 函數，方便整合到您的應用程式中。
-
-使用方法
-您可以使用以下程式碼將 ImageProcessing 類別整合到您的應用程式中：
-
+###ImageProcessing 影像處理工具   
+##簡介   
+ImageProcessing 類別提供了多種影像預處理技術，同時包含計算均方誤差 (MSE) 的方法，可用於辨識驗證碼。此類別被包裝成 main 函數，方便整合到您的應用程式中。    
+##使用方法   
+您可以使用以下程式碼將 ImageProcessing 類別整合到您的應用程式中：   
+  
 from ImageProcessing import ImageProcessing
 # 指定輸入影像路徑
 input_image_path = "path/to/your/image.jpg"
